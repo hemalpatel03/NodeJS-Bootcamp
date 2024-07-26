@@ -1,0 +1,19 @@
+Problem 2: JSON Manipulation
+
+ a) Define JSON and explain its importance in web development.
+
+ Ans: JSON (JavaScript Object Notation) is a lightweight data interchange format used to exchange 
+ data between a server and a client. It's easy for humans to read and write, and it's easy for machines 
+ to parse and generate.
+
+ b) Given a JSON data string: {"name": "Alice", "age": 25, "hobbies": ["reading",
+ "painting"]}, explain how you would extract the value of the "age" key.
+
+ Ans: To extract the value of the "age" key from the JSON data:
+         const age = jsonObject.age;
+
+ c) How would you convert the following object into a JSON data string? {"title": "Book", "pages":
+ 200}
+
+ Ans: To convert an object into a JSON data string:
+        const jsonString = JSON.stringify({"title": "Book", "pages": 200});

@@ -1,0 +1,14 @@
+{
+  "name": "dell",
+  "version": "1.0.0",
+  "description": "lodash",
+  "main": "p1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hemal patel",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
